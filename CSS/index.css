@@ -51,6 +51,7 @@ a{
 .side_line_left{
     margin-top : -86px;
     margin-left : 5px;
+    z-index: 1;
 }
 
 .main1 {
@@ -64,6 +65,7 @@ a{
 .side_line_right{
     margin-top : -85px;
     margin-left: -10px;
+    z-index: 1;
 }
 
 .bottom{
