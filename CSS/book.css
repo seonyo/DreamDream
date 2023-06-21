@@ -221,6 +221,9 @@ a{
       display: block;
     }
 
+    .txt{
+      margin-top : 96px;
+    }
     .up_link{
       position: relative;
       z-index: 2;
