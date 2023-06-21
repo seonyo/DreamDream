@@ -1,0 +1,200 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+
+a{
+  text-decoration: none; /* 링크의 밑줄 제거 */
+  color: inherit; /* 링크의 색상 제거 */
+    }
+    hr{
+        width: 400px;
+        margin-top : -50px;
+        margin-left : 123px;
+        border: 1px solid #000000;
+    }
+.topbar{
+    display: flex;
+}
+
+.logo{
+    margin-left : 129px;
+    margin-top : -33px;
+}
+
+.nav{
+    list-style-type: none;
+    margin-left: 182px;
+    padding: 0;
+    display: flex;
+    margin-top : 0px;
+    display: flex;
+}
+
+.nav > li{
+    margin-right : 30px;
+}
+
+.nav > li > a > button {
+    font-family: 'Noto Serif';
+    width : 134px;
+    height : 39px;
+    background-color: #ffffff;
+    border: 1px solid #98A2B3;
+    border-radius: 30px;
+    color: #98A2B3;
+    display: flex;
+}
+
+.btn_img{
+    padding-right : 22px;
+    padding-top : 12px;
+    margin-left : 12px;
+}
+
+.brand_top{
+    margin-top : 71px;
+    margin-left : 178px;
+}
+
+.image_container{
+    position: relative;
+}
+.brand_btn1{
+    position : absolute;
+    top: 952px;
+    left: 171px;
+}
+.brand_btn2{
+    position : absolute;
+    top: 680px;
+    left: 143px;
+}
+.brand_btn1>  a > Button{
+    width: 261px;
+    height : 45px;
+    font-family: 'Noto Serif', serif;
+    background: #2C2644;
+    border: 1px solid #E4E7EC;
+    color : #ffffff;
+    font-size : 15px;
+}
+
+.brand_btn1>Button{
+    width: 261px;
+    height : 45px;
+    font-family: 'Noto Serif', serif;
+    border: 1px solid #E4E7EC;
+    font-size : 15px;
+    background-color: #ffffff;
+    color : #E4E7EC;
+    margin-left : 220px;
+}
+
+.board_bottom{
+    margin-left : 206px;
+}
+
+.brand_btn2 > Button{
+    width: 261px;
+    height : 45px;
+    font-family: 'Noto Serif', serif;
+    border: 1px solid #E4E7EC;
+    font-size : 15px;
+    background-color: #ffffff;
+    color : #E4E7EC;
+    margin-right : 220px;
+}
+
+.back{    
+    margin-left : 208px;
+    margin-top : 44px;
+}
+
+.shop-1_head{
+    margin-left : 250px;
+    margin-top : 46px;
+}
+
+.shop-1_mid{
+    margin-top : 169px;
+    width : 100%;
+
+}
+
+.shop-1_mid2{
+    margin-left : 320px;
+    margin-top : 190px;
+    width : 1645px;
+    height : 696px;
+}
+.shop-1_mid2 > img{
+    padding-right : 55px;
+}
+.shop-1_foot{
+    margin-top : 102px;
+    margin-left : 17px;
+    width : 1885px;
+    height : 1362px;
+}
+
+
+.up{
+    margin-top : 69px;
+    margin-left : 941px;
+    margin-bottom : 122px;
+}
+
+.buy{
+    display: flex;
+    position: absolute;
+    margin-left : 1020px;
+}
+
+.minus{
+    padding-top : 5px;
+    margin-top : 205px;
+    margin-right : 169px;
+    width:14px;
+    height :1px;
+}
+#cntValue{
+    margin-top : 190px;
+    margin-right : 160px;
+    font-size:20px;
+    font-family: 'Noto Serif', serif;
+    color : #2E2E2E;
+}
+.plus{
+    margin-top : 205px;
+    margin-right : 313px;
+    width:15px;
+    height:15px;
+}
+
+#result{
+    margin-top : 265px;
+    margin-left : 420px;
+    color : #2E2B53;
+    font-family: 'Noto Serif', serif;
+
+    font-size: 23px;
+}
+
+.buyBottom > #result > button{
+    padding-top : 500px;
+}
+
+.buyBtn{
+    position: relative;
+    margin-top : 92px;
+    margin-left : 138px;
+}
+
+.buyBtn > button{
+    width:200px;
+    height : 44px;
+    font-family: 'Noto Serif KR', serif;
+    font-size:18px;
+    font-weight: 600;
+    border : none;
+
+}

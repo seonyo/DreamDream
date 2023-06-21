@@ -1,0 +1,263 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+  p{
+    font-family: 'Noto Serif', serif;
+  }
+*{
+    font-family: 'Noto Serif KR', serif;
+}
+
+
+
+a{
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    color: inherit; /* 링크의 색상 제거 */
+      }
+  .topbar{
+      display: flex;
+  }
+  
+  .logo{
+      margin-left : 129px;
+      margin-top : -33px;
+  }
+  
+  .nav{
+      list-style-type: none;
+      margin-left: 182px;
+      padding: 0;
+      display: flex;
+      margin-top : 0px;
+      display: flex;
+  }
+  
+  .nav > li{
+      margin-right : 30px;
+  }
+  
+  .nav > li > a > button {
+      font-family: 'Noto Serif';
+      width : 134px;
+      height : 39px;
+      background-color: #ffffff;
+      border: 1px solid #98A2B3;
+      border-radius: 30px;
+      color: #98A2B3;
+      display: flex;
+  }
+  
+  .btn_img{
+      padding-right : 22px;
+      padding-top : 12px;
+      margin-left : 12px;
+  }
+
+  .bookLogo{
+    margin-left : 247px;
+    margin-top : 120px;
+  }
+
+  .arrow{
+    position: relative;
+    margin-left : 359px;
+    margin-top : 167px;
+  }
+  
+  .box1{
+    position: absolute;
+    width : 340px;
+    height : 203px;
+    border: solid 1px #352B53 ;
+    top : 504px;
+    background: #ffffff;
+    left : 250px;
+    transition: background-color 0.3s ease;
+  }
+
+  .box2{
+    position: absolute;
+    width : 340px;
+    height : 203px;
+    border: solid 1px #352B53 ;
+    top : 576px;
+    background-color: #ffffff;
+    margin-left : 790px;
+  }
+  .box3{
+    position: absolute;
+    width : 340px;
+    height : 203px;
+    border: solid 1px #352B53 ;
+    top : 779px;
+    background-color: #ffffff;
+    margin-left : 1352px;
+  }
+  .box4{
+    position: absolute;
+    width : 340px;
+    height : 203px;
+    border: solid 1px #352B53 ;
+    top : 966px;
+    background-color: #ffffff;
+    margin-left : 730px;
+  }
+  .box5{
+    position: absolute;
+    width : 340px;
+    height : 203px;
+    border: solid 1px #352B53 ;
+    top : 1290px;
+    background-color: #ffffff;
+    margin-left : 250px;
+  }
+  .box6{
+    position: absolute;
+    width : 340px;
+    height : 203px;
+    border: solid 1px #352B53 ;
+    top : 1493px;
+    background-color: #ffffff;
+    margin-left : 784px;
+  }
+
+  .box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover {
+    background: linear-gradient( to bottom, #929ADD, #CBA7DC );
+  }
+  .box1:hover>span, .box2:hover>span, .box3:hover>span, .box4:hover>span, .box5:hover>span, .box6:hover>span{
+    color : white !important;
+  }
+  .box1:hover .bookBtn1 img, .box2:hover .bookBtn2 img,  .box3:hover .bookBtn2 img, .box4:hover .bookBtn2 img, .box5:hover .bookBtn2 img, .box6:hover .bookBtn2 img{
+    content: url(../image/hoverBtn.png);
+  }
+
+   .bookBtn1{
+    margin-left : 224px;
+    padding-right : 16px;
+  }
+  .bookBtn2{
+    position:absolute;
+    width : 100px;
+    height : 30px;
+    padding-left : 224px;
+    padding-right : 16px;
+    margin-bottom: 80px;
+  }
+
+.foot_box{
+  display: flex;
+}
+.book_cover{
+  position: absolute;
+    width: 352px;
+    height: 473px;
+    width : 352px;
+    margin-top : 80px;
+    border : 1px solid #98A2B3;
+  }
+
+  .book_cover > img{
+    position: absolute;
+  width: 311px;
+  height: 447px;
+    padding-left : 21px;
+    padding-top : 13px;
+  }
+
+  .btn > a > img{
+    margin-left : 385px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .book_foot{
+    padding-bottom:308px;
+  }
+
+  .top{
+    text-align: center;
+  }
+  .image-container img {
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right: 10px; 
+  }
+  .go{
+    position: absolute;
+    margin-left : 250px;
+    margin-top : 44px;
+  }
+  .next{
+    position: absolute;
+    margin-left : 1534px;
+    margin-top : 44px;
+    }
+
+    .main_box1{
+      display: flex;
+      position: relative;
+      text-align: center;
+      margin-top : 135px;
+      margin-left : 250px;
+      margin-bottom : 86px;
+    }
+  
+   .up{
+      position: absolute;
+      left : 43%;
+      bottom : 0;
+    }
+
+    .buyBtn{
+      display: flex;
+      flex-direction: column;
+      align-items: center
+      /* margin-top : 800px; */
+    }
+    .buyBtn button{
+      display: block;
+    }
+
+    .up_link{
+      position: relative;
+      z-index: 1;
+    }
+    .box3-1{
+      position : absolute;
+      top : 301px;
+      left : 804px;
+      z-index: 2;
+    }
+    .box3-2{
+      position : absolute;
+      top : 819px;
+      left : 710px;
+      z-index: 2;
+    }
+    .box3-3{
+      position : absolute;
+      top : 1072px;
+      left : 723px;
+      z-index: 2;
+    }
+    .box3-4{
+      position : absolute;
+      top : 1472px;
+      left : 861px;
+      z-index: 2;
+    }
+
+    .box3-1:hover{
+      content: url(../image/box3-1_hover.png);
+    }
+    .box3-2:hover{
+      content: url(../image/box3-2_hover.png);
+    }
+    .box3-3:hover{
+      content: url(../image/box3-3_hover.png);
+    }
+    .box3-4:hover{
+      content: url(../image/box3-4_hover.png);
+    }

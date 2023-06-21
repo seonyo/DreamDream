@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="../CSS/shop.css">
+
+</head>
+<body id="top">
+    <div class="line_top">
+        <a href="index.html">
+            <img src="/image/line_top.png" style="width : 100%">
+        </a>
+    </div>
+    <div class="topbar">
+    <ul class = "nav">
+        <li>
+          <a href="shop.html">
+            <button style="background-color: #2E2B53; color : #ffffff"> 
+              <div class="btn_img" >
+                <img src="./image/whiteStar.png">
+              </div>
+              <span style="padding-top: 10px;">Shop</span>
+          </button>
+          </a>
+          
+          </li>
+
+          <li>
+            <a href="Brand.html">
+              <button> 
+                <div class="btn_img">
+                  <img src="./image/star.png">
+                </div>
+                <span style="padding-top: 10px;">Brand</span>
+            </button>
+            </a>
+            
+            </li>
+  
+
+            <li>
+              <a href="Book.html">
+                <button> 
+                  <div class="btn_img">
+                    <img src="./image/star.png">
+                  </div>
+                  <span style="padding-top: 10px;"> Book</span>
+              </button>
+              </a>
+              
+              </li>
+       
+        </ul>
+        <div class="logo">
+            <a href="index.html">
+              <img src = "image/로고.png">
+            </a>
+          </div>
+    <div class="icon">
+    </div>
+</div>
+<div class="back">
+    <a href="./shop.html">
+        <img src="image/back.png">
+    </a>
+</div>
+
+
+<div class="shop-1_head" style="display: flex;">
+  <img src="image/shop-1_head.png">
+  <div class="buy" style="display: flex;">
+      <img src="image/minus.png" class="minus" id="minusImg">
+      <div id="cntValue">0</div>
+      <img src="image/plus.png" class="plus" id="plusImg">
+  </div>
+
+  <div class="buyBottom">
+    <div id="result"></div>
+    <hr>
+    <div class="buyBtn" style="display: flex;">
+      <button style="color : #B8BFD0; background-color: #2E2B53;">장바구니</button>
+      <button style="color : #B8BFD0; background-color: #ffffff; border: 1px solid #2E2B53;">구매하기</button>
+    </div>
+  </div>
+</div>
+
+    </div>
+</div>
+<div class="shop-1_mid">
+    <img src = "image/shop-1_mid.png">
+</div>
+<div class="shop-1_mid2">
+    <img src = "image/shop_mid1.png" id="1">
+    <img src = "image/shop_mid2.png" id="2">
+    <img src = "image/shop_mid3.png" id="3">
+</div>
+<div class="shop-1_foot">
+    <img src = "image/shop-1_foot.png">
+</div>
+<div class="up">
+  <a href="#top">
+    <img src="image/up.png">
+  </a>
+</div>
+</body>
+<script>
+  const cntValue = document.getElementById('cntValue');
+  const minusImg = document.getElementById('minusImg');
+  const plusImg = document.getElementById('plusImg');
+  const result = document.getElementById('result');
+  let cnt=0;
+  result.textContent = calculaterResult(cnt);
+  minusImg.addEventListener('click', function(){
+    if(cnt!=0){
+      cnt--;
+      cntValue.textContent = cnt;  
+      result.textContent = calculaterResult(cnt);  
+    }
+  });
+  plusImg.addEventListener('click', function(){
+    cnt++;
+    cntValue.textContent = cnt;
+    result.textContent = calculaterResult(cnt);  
+  });
+
+  function calculaterResult(cnt){
+    return 15000*cnt;
+  }
+
+  const box1Img = document.getElementById('1');
+  const box2Img = document.getElementById('2');
+  const box3Img = document.getElementById('3');
+
+  let event1 = false;
+  box1Img.addEventListener('click', function(){
+    if(event1){
+      box1Img.src='image/shop_back1.png';
+      event1=false;
+    }
+    else{
+      box1Img.src='image/shop_mid1.png'
+      event1=true;
+    }
+  });
+
+  let event2 = false;
+  box2Img.addEventListener('click', function(){
+    if(event2){
+      box2Img.src='image/shop_back2.png';
+      event2=false;
+    }
+    else{
+      box2Img.src='image/shop_mid2.png'
+      event2=true;
+    }
+  });
+
+  
+  let event3 = false;
+  box3Img.addEventListener('click', function(){
+    if(event3){
+      box3Img.src='image/shop_back3.png';
+      event3=false;
+    }
+    else{
+      box3Img.src='image/shop_mid3.png'
+      event3=true;
+    }
+  });
+</script>
+</html>
