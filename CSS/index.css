@@ -73,31 +73,6 @@ a{
     background-color: #2C2644;
     margin-left : -46px;
     margin-top: -55px;
-    z-index: -1;
-}
-
-.bottom_box1{
-    align-items: center;
-    flex-direction: row;
-    font-family: 'Noto Serif KR', serif;
-    overflow: visible;
-}
-
-.bottom_box2{
-    align-items: center;
-    flex-direction: row;
-    overflow: visible;
-    /* width : 464px; */
-    font-family: 'Noto Serif KR', serif;
-
-}
-
-
-.bottom_box3{
-    align-items: center;
-    flex-direction: row;
-    overflow: visible;
-    font-family: 'Noto Serif KR', serif;
 }
 
 .txt1{
@@ -123,15 +98,9 @@ a{
 
 .btn1{
     margin-left: 1300px;
-    background-color: #2C2644;
-    width : 214px;
-    height: 41px;
-    font-size:15px;
-    color: #E0CDFF;
-    border: 1px solid #FFFFFF;
-    border-radius: 30px;
-    font-family: 'Noto Serif KR', serif;
     margin-top : 40px;
+      display: inline-block;
+    cursor: pointer;
 }
 
 .img2{
@@ -148,15 +117,7 @@ a{
 
 .btn2{
     margin-left: 215px;
-    background-color: #2C2644;
-    width : 214px;
-    height: 41px;
-    font-size:15px;
-    color: #E0CDFF;
-    border: 1px solid #FFFFFF;
-    border-radius: 30px;
-    font-family: 'Noto Serif KR', serif;
-    margin-top: -70px;
+       margin-top: -70px;
 }
 .txt3{
     margin-left:1275px;
@@ -167,16 +128,8 @@ a{
 }
 
 .btn3{
-    margin-top : -22px;
+    /* margin-top : -22px; */
     margin-left: 1340px;
-    background-color: #2C2644;
-    width : 214px;
-    height: 41px;
-    font-size:15px;
-    color: #E0CDFF;
-    border: 1px solid #FFFFFF;
-    border-radius: 30px;
-    font-family: 'Noto Serif KR', serif;
 }
 .line_bottom{
     margin-bottom: 20px;
