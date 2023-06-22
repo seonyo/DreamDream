@@ -1,7 +1,6 @@
 # 2023 ITShow Dream&Dream
-'달러구트 꿈 백화점을 모티브로 한 꿈을 꾸게 해주는 캔들 브랜드
+'달러구트 꿈 백화점'을 모티브로 한 꿈을 꾸게 해주는 캔들 브랜드 Dream&Dream
 
- ### <span style="color : #5839AE"> Dream & Dream</span>
 
 ## ⏱️Period⏱️
 2023.06.15~2023.06.21
