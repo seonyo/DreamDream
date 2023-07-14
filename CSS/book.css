@@ -208,7 +208,6 @@ a{
       position: absolute;
       left : 43%;
       bottom : 0;
-      z-index: 3;
     }
 
     .buyBtn{
@@ -226,7 +225,6 @@ a{
     }
     .up_link{
       position: relative;
-      z-index: 2;
     }
     .box3-1{
       position : absolute;
@@ -247,7 +245,6 @@ a{
       position : absolute;
       top : 1472px;
       left : 861px;
-
     }
 
     .box3-1:hover{
