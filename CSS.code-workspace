@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "CSS",
+			"path": "D:/DreamDream/CSS"
+		},
+		{
+			"name": "DreamDream",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502,
+		"liveServer.settings.multiRootWorkspaceName": "DreamDream"
+	}
+}
