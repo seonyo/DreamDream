@@ -17,6 +17,14 @@
 - 웹의 레이아웃 구조 익히기
 - CSS의 다양한 Style 사용 해보기
 
+  ## 접속링크
+https://soft-daffodil-ccfa5e.netlify.app/
+
+아직 반응형 구현은 하지 않았기에 1920 * 1080 크기로 봐주세요!
+
 ## ⭐Design⭐
 <img src = "readmeImg1.png" >
 <img src = "readmeImg2.png">
+
+
+
